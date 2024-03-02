@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Карточка товара</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240302193327">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-goto-link"></div>
+		<header data-scroll="41" class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__info">
+						<a href="#">О магазине</a>
+						<a href="#">Оплата и доставка</a>
+						<a href="#">Гарантии</a>
+					</div>
+					<div class="top-header__socials">
+						<a href="#"><img src="img/icons/instagram-icon.svg" alt=""></a>
+						<a href="#"><img src="img/icons/whatsapp-icon.svg" alt=""></a>
+						<a href="#"><img src="img/icons/telegram-icon.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="header__main main-header">
+					<button type="button" class="icon-menu _icon-menu">
+						<!-- <span></span> -->
+					</button>
+					<a href="home.html" class="header__logo logo"><picture><source srcset="img/common/logo.webp" type="image/webp"><img src="img/common/logo.png" alt=""></picture></a>
+					<div class="main-header__search">
+						<div class="main-header__category">
+							<select name="form[]" class="form">
+								<option value="1" selected="selected">Категория</option>
+								<option value="2">Смарт-часы</option>
+								<option value="3">Акустика для дома</option>
+								<option value="4">Электроника для стриминга и игр</option>
+								<option value="5">Спортивная электроника</option>
+								<option value="6">Кофемашины и аксессуары</option>
+								<option value="7">Проекторы </option>
+								<option value="8">Всё для дома и здоровья</option>
+							</select>
+						</div>
+						<!-- <button class="main-header__category _icon-arrow"></button> -->
+						<div class="search-form">
+							<button type="button" class="search-form__icon _icon-search"></button>
+							<form action="#" class="search-form__item ">
+								<!-- <button type="submit" class="search-form__btn _icon-search"></button> -->
+								<input autocomplete="off" type="text" name="form[]" placeholder="Что искать..." class="search-form__input">
+							</form>
+						</div>
+					</div>
+					<div class="main-header__invisible"></div>
+					<div data-da=".menu__body,991.98,first" class="main-header__phone">
+						<a href="tel:89384350505" class="main-header__phone-number">8 938 435 05 05</a>
+						<a href="tel:89384350505" class="main-header__phone-link">Заказать звонок</a>
+					</div>
+					<div class="main-header__user user-header">
+						<div data-da=".page-menu__container, 991.98, last" class="user-header__favorite header__favorite favorite">
+							<div class="favorite__text">
+								<a href="favourites.html" class="_icon-favorite user-header__label">Избранное</a>
+								<div class="favorite__quantity">0</div>
+							</div>
+							<div class="favorite-content">
+								<ul class="favorite-content__list" data-simplebar>
+									<!-- <li class="favorite-content__item">
+							<article class="favorite-content__product favorite-product">
+								<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="" class="favorite-product__img"></picture>
+								<div class="favorite-product__text">
+									<h3 class="favorite-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
+									<span class="favorite-product__price">190 789 ₽</span>
+								</div>
+								<button class="favorite-product__delete" aria-label="Удалить товар"></button>
+							</article>
+						</li>
+						 -->
+								</ul>
+								<div class="favorite-content__bottom">
+									<div class="favorite-content__fullprice">
+										<span>Итого:</span>
+										<span class="fullprice"></span>
+									</div>
+									<a href="favourites.html" class="favorite-content__btn btn">В избранное</a>
+								</div>
+							</div>
+						</div>
+						<div data-da=".page-menu__container, 991.98, last" class="user-header__cart header__cart cart">
+							<div class="cart__text">
+								<a href="basket.html" class="_icon-cart user-header__label">Корзина</a>
+								<div class="cart__quantity"><span>0</span></div>
+							</div>
+							<div class="cart-content">
+								<ul class="cart-content__list" data-simplebar>
+									<!-- <li class="cart-content__item">
+								<article class="cart-content__product cart-product">
+									<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="" class="cart-product__img"></picture>
+									<div class="cart-product__text">
+										<h3 class="cart-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
+										<span class="cart-product__price">190 789 ₽</span>
+									</div>
+									<button class="cart-product__delete" aria-label="Удалить товар"></button>
+								</article>
+							</li>
+							 -->
+								</ul>
+								<div class="cart-content__bottom">
+									<div class="cart-content__fullprice">
+										<span>Итого:</span>
+										<span class="fullprice"></span>
+									</div>
+									<a href="basket.html" class="cart-content__btn btn">В корзину</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="header__menu menu">
+				<div class="menu__container">
+					<nav class="menu__body">
+						<ul data-spollers="991.98,max" class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Смарт-часы</a></li>
+							<li class="menu__item menu__item_sublist">
+								<a data-spoller class="menu__link _icon-arrow">Акустика для дома</a>
+								<ul class="menu__sublist">
+									<li><a href="#">Портативные колонки</a></li>
+									<li><a href="#">Аудиосистемы</a></li>
+									<li><a href="#">Саундбары</a></li>
+									<li><a href="#">Тыловые колонки</a></li>
+									<li><a href="#">Усилители</a></li>
+									<li><a href="#">Сабвуферы</a></li>
+									<li><a href="#">Наушники</a></li>
+									<li><a href="#">Пульты</a></li>
+									<li><a href="#">Виниловые проигрыватели</a></li>
+								</ul>
+							</li>
+							<li class="menu__item menu__item_sublist">
+								<a data-spoller class="menu__link _icon-arrow">Все для стриминга и игр</a>
+								<ul class="menu__sublist">
+									<li><a href="#">Портативные колонки</a></li>
+									<li><a href="#">Аудиосистемы</a></li>
+									<li><a href="#">Саундбары</a></li>
+									<li><a href="#">Тыловые колонки</a></li>
+									<li><a href="#">Усилители</a></li>
+									<li><a href="#">Сабвуферы</a></li>
+									<li><a href="#">Наушники</a></li>
+									<li><a href="#">Пульты</a></li>
+									<li><a href="#">Виниловые проигрыватели</a></li>
+								</ul>
+							</li>
+							<li class="menu__item menu__item_sublist">
+								<a data-spoller class="menu__link _icon-arrow">Спорт. электроника</a>
+								<ul class="menu__sublist">
+									<li><a href="#">Портативные колонки</a></li>
+									<li><a href="#">Аудиосистемы</a></li>
+									<li><a href="#">Саундбары</a></li>
+									<li><a href="#">Тыловые колонки</a></li>
+									<li><a href="#">Усилители</a></li>
+									<li><a href="#">Сабвуферы</a></li>
+									<li><a href="#">Наушники</a></li>
+									<li><a href="#">Пульты</a></li>
+									<li><a href="#">Виниловые проигрыватели</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link">Все для дома и здоровья</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Производители</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<div class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<li class="breadcrumbs__link"><a href="home.html">Главная</a></li>
+					<li class="breadcrumbs__current"><span>Хлебные крошки</span></li>
+				</div>
+			</div>
+
+			<section class="product-page">
+				<div class="product-page__container">
+					<div class="product-page__header header-product">
+						<h1 class="product-page__title">Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h1>
+						<div class="header-product__bottom">
+							<div class="header-product__bottom-item">
+
+								<div class="rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">4</div>
+								</div>
+
+							</div>
+							<div class="header-product__bottom-item">
+								<div class="product">
+									<button class="product-card__add-favorite header-product__favorite" style="position: unset;">
+										<div class="header-product__svg">
+											<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_39_1700)">
+													<path d="M8.07569 1.45491C7.63568 0.97768 7.03193 0.714844 6.37552 0.714844C5.88487 0.714844 5.43552 0.869965 5.03994 1.17586C4.84033 1.33027 4.65947 1.51918 4.5 1.73967C4.3406 1.51924 4.15967 1.33027 3.96 1.17586C3.56448 0.869965 3.11513 0.714844 2.62448 0.714844C1.96807 0.714844 1.36425 0.97768 0.924244 1.45491C0.489491 1.92656 0.25 2.57091 0.25 3.26934C0.25 3.9882 0.517895 4.64624 1.09305 5.34026C1.60757 5.96107 2.34705 6.59128 3.20339 7.32103C3.4958 7.57025 3.82725 7.85274 4.17141 8.15364C4.26233 8.23328 4.37899 8.27711 4.5 8.27711C4.62094 8.27711 4.73767 8.23328 4.82846 8.15377C5.17262 7.8528 5.50426 7.57019 5.7968 7.32084C6.65302 6.59121 7.3925 5.96107 7.90702 5.34019C8.48217 4.64624 8.75 3.9882 8.75 3.26928C8.75 2.57091 8.51051 1.92656 8.07569 1.45491Z" fill="#A6A6A6" />
+												</g>
+												<defs>
+													<clipPath id="clip0_39_1700">
+														<rect width="8.5" height="8.5" fill="white" transform="translate(0.25 0.25)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</div>
+										<span class="header-product__favorite_pc">Добавить в избранное</span>
+										<span class="header-product__favorite_mobile">В избранное</span>
+									</button>
+
+									<a href="#" class="product-card__image image-slider-pc" style="display: none">
+										<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt=""></picture>
+									</a>
+									<a href="#" class="product-card__title" style="display: none">
+										<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+									</a>
+									<div class="product-card__rating  rating rating_set" style="display: none">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__count">1 отзыв</div>
+										<div class="rating__value">5</div>
+									</div>
+									<div class="product-card__footer" style="display: none">
+										<div class="product-card__prices">
+											<div class="product-card__price">59 950 ₽</div>
+											<div class="product-card__price-old">62 000 ₽</div>
+										</div>
+										<button class="product-card__add-cart _icon-cart"><span>В
+												корзину</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="header-product__bottom-item">
+								<div class="header-product__available header-product__available_yes">Есть в наличии
+								</div>
+							</div>
+							<div class="header-product__bottom-item">
+								<div class="header-product__articule">Артикул: <span>54367</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="product-page__body">
+						<div class="product-page__sliders sliders-product">
+							<div class="sliders-product__slider swiper">
+								<div class="sliders-product__wrapper swiper-wrapper">
+
+									<div class="sliders-product__slide swiper-slide">
+										<div class="sliders-product__image"><picture><source srcset="img/product-page/product-big_01.webp" type="image/webp"><img src="img/product-page/product-big_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product__slide swiper-slide">
+										<div class="sliders-product__image"><picture><source srcset="img/product-page/product-big_01.webp" type="image/webp"><img src="img/product-page/product-big_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product__slide swiper-slide">
+										<div class="sliders-product__image"><picture><source srcset="img/product-page/product-big_01.webp" type="image/webp"><img src="img/product-page/product-big_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product__slide swiper-slide">
+										<div class="sliders-product__image"><picture><source srcset="img/product-page/product-big_01.webp" type="image/webp"><img src="img/product-page/product-big_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product__slide swiper-slide">
+										<div class="sliders-product__image"><picture><source srcset="img/product-page/product-big_01.webp" type="image/webp"><img src="img/product-page/product-big_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product__slide swiper-slide">
+										<div class="sliders-product__image"><picture><source srcset="img/product-page/product-big_01.webp" type="image/webp"><img src="img/product-page/product-big_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+								</div>
+								<div class="sliders-product__arrows">
+									<button type="button" class="sliders-product__prev slider-controlls__arrow slider-controlls__arrow_prev _icon-arrow">
+										<button type="button" class="sliders-product__next slider-controlls__arrow  slider-controlls__arrow_next _icon-arrow">
+								</div>
+							</div>
+							<div class="sliders-product-thumbs__slider swiper">
+								<div class="sliders-product-thumbs__wrapper swiper-wrapper">
+
+									<div class="sliders-product-thumbs__slide swiper-slide">
+										<div class="sliders-product-thumbs__image"><picture><source srcset="img/product-page/product-small_01.webp" type="image/webp"><img src="img/product-page/product-small_01.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product-thumbs__slide swiper-slide">
+										<div class="sliders-product-thumbs__image"><picture><source srcset="img/product-page/product-small_02.webp" type="image/webp"><img src="img/product-page/product-small_02.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product-thumbs__slide swiper-slide">
+										<div class="sliders-product-thumbs__image"><picture><source srcset="img/product-page/product-small_03.webp" type="image/webp"><img src="img/product-page/product-small_03.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product-thumbs__slide swiper-slide">
+										<div class="sliders-product-thumbs__image"><picture><source srcset="img/product-page/product-small_04.webp" type="image/webp"><img src="img/product-page/product-small_04.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product-thumbs__slide swiper-slide">
+										<div class="sliders-product-thumbs__image"><picture><source srcset="img/product-page/product-small_05.webp" type="image/webp"><img src="img/product-page/product-small_05.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+									<div class="sliders-product-thumbs__slide swiper-slide">
+										<div class="sliders-product-thumbs__image"><picture><source srcset="img/product-page/product-small_06.webp" type="image/webp"><img src="img/product-page/product-small_06.png" alt="Картинка"></picture>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="sliders-product__info">
+							<div class="sliders-product__item">
+								<h3 class="sliders-product__title">Описание</h3>
+								<p class="sliders-product__text">
+									Контроллер для стриминга Elgato – это надёжный девайс, который незаменим для
+									профи в
+									создании видео, записи звука, редактуры изображений. Устойчиво позволяет
+									управлять
+									всем
+									...
+								</p>
+								<a href="#" class="sliders-product__full">Полное описание</a>
+							</div>
+							<div class="sliders-product__item">
+								<h3 class="sliders-product__title">Характеристики</h3>
+								<div class="sliders-product__characteristics">
+									<div class="sliders-product__characteristic">
+										<span>Категория</span>
+										<span>Категория</span>
+									</div>
+									<div class="sliders-product__characteristic">
+										<span>Цвет:</span>
+										<span>Цвет:</span>
+									</div>
+									<div class="sliders-product__characteristic">
+										<span>Производитель:</span>
+										<span>Производитель:</span>
+									</div>
+									<div class="sliders-product__characteristic">
+										<span>Мощность:</span>
+										<span>Мощность:</span>
+									</div>
+								</div>
+								<a class="sliders-product__characteristics-all">Все характеристики</a>
+							</div>
+						</div>
+						<div class="product-page-block product-block">
+							<div class="product-block__header">
+								<div class="product-block__prices">
+									<div class="product-block__price">59 950 ₽</div>
+									<div class="product-block__price_old">62 000 ₽</div>
+								</div>
+								<button type="button" class="product-block__share _icon-share"></button>
+							</div>
+							<a href="#" class="product-block__cheepest">Нашли дешевле?</a>
+							<a href="#" class="product-block__notify _icon-bell"><span>Узнать о снижении
+									цены</span></a>
+							<div class="product-block__buttons">
+								<div class="product">
+									<button data-popup="#popup-add-cart" type="button" class="product-card__add-cart product-block__button product-block__button-cart _icon-cart">В
+										корзину</button>
+									<button class="fav product-card__button product-card__add-favorite" style="display: none;">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_16_1413)">
+												<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+											</g>
+											<defs>
+												<clipPath id="clip0_16_1413">
+													<rect width="16" height="16" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+
+									</button>
+									<a href="#" class="product-card__image image-slider-pc" style="display: none;">
+										<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt=""></picture>
+									</a>
+									<a href="#" class="product-card__title" style="display: none;">
+										<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+									</a>
+									<div class="product-card__rating  rating rating_set" style="display: none;">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div data-popup="#popup-one-click" class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__count">1 отзыв</div>
+										<div class="rating__value">1</div>
+									</div>
+									<div class="product-card__footer" style="display: none;">
+										<div class="product-card__prices">
+											<div class="product-card__price">59 950 ₽</div>
+											<div class="product-card__price-old">62 000 ₽</div>
+										</div>
+										<button class="product-card__add-cart _icon-cart"><span>В
+												корзину</span></button>
+									</div>
+								</div>
+
+								<a data-popup="#popup-one-click" href="#" class="product-block__button">Купить в 1
+									клик</a>
+								<a href="#" class="product-block__button">Купить в кредит</a>
+							</div>
+							<div class="product-block__footer">
+								<div class="product-block__footer-title">Задать вопрос</div>
+								<div class="product-block__socials">
+									<a href="#" class="product-block__whatsapp">Whatsapp</a>
+									<a href="#" class="product-block__telegram">Telegram</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="product-page__tabs product-tabs">
+				<div class="product-tabs__container">
+					<div data-tabs class="product-tabs__tabs">
+						<nav data-tabs-titles class="product-tabs__navigation">
+							<div class="product-tabs__title _tab-active">
+								<button type="button">
+									<span>Описание</span>
+								</button>
+							</div>
+							<div class="product-tabs__title">
+								<button type="button">
+									<span>Характеристики</span>
+								</button>
+
+							</div>
+							<div class="product-tabs__title">
+								<button type="button">
+									<span>Отзывы</span>
+									<span class="product-tabs-review-count">( 2 )</span>
+								</button>
+							</div>
+							<div class="product-tabs__title">
+								<button type="button">
+									<span>Вопрос - Ответ</span>
+									<span class="product-tabs-qa-count">( 10 )</span>
+								</button>
+							</div>
+
+						</nav>
+						<div data-tabs-body class="product-tabs__content">
+							<div class="product-tabs__description tabs-description">
+								<div class="tabs-description__content">
+									<div class="tabs-description__info">
+										<div class="tabs-description__title tabs-title">Описание</div>
+										<p>
+											Контроллер для стриминга Elgato – это надёжный девайс, который незаменим
+											для
+											профи в создании видео, записи звука, редактуры изображений. Устойчиво
+											позволяет
+											управлять всем рабочим процессом в продакшн одним касанием. 8 ЖК-клавиш
+											могут
+											выполнять функцию папок, собравших наборы действий и эффектов. 4
+											поворотных
+											регулятора программируются на выполнение команд, а переключаться между
+											ними
+											можно простым нажатием.
+										</p>
+
+										<p>
+											Stream Deck + дает вам невероятные возможности для взаимодействия с
+											вашей
+											установкой. Мгновенное, тактильное, детальное управление. Безграничная
+											настройка. Плагинов в изобилии.Выполняйте практически любое действие,
+											которое
+											хотите: переключайте камеры, отключайте микрофон, запускайте приложения,
+											применяйте звуковые эффекты, включайте свет, меняйте сцены и многое
+											другое.
+
+										</p>
+										<p>
+											Отрегулируйте уровни громкости, детали изображения, масштабирование
+											камеры,
+											яркость, баланс белого — любые дополнительные настройки приложения.
+											Нажимайте,
+											чтобы переключаться между действиями набора номера.Управляйте
+											приложениями
+											одним
+											прикосновением, пролистывайте, чтобы переключаться между страницами, и
+											мгновенно
+											просматривайте информацию о наборе номера.Установите более 200 готовых
+											плагинов
+											или сопоставьте сочетания клавиш с клавишами и циферблатами. Stream Deck
+											+
+											интегрируется с любым рабочим процессом, от создания видео, подкастинга
+											и
+											прямых
+											трансляций до редактирования фотографий, графического дизайна и многого
+											другого.Добро пожаловать в мир Stream Deck.
+										</p>
+									</div>
+									<div class="tabs-description__image">
+										<div class="tabs-description__title tabs-title">Описание</div>
+										<picture><source srcset="img/product-page/tab_01.webp" type="image/webp"><img src="img/product-page/tab_01.jpg" alt="Картинка"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="product-tabs__characterictics tabs-characterictics">
+								<h2 class="tabs-characterictics__title tabs-title">Характеристики</h2>
+								<div class="tabs-characterictics__info">
+									<ul class="tabs-characterictics__list">
+										<div class="tabs-characterictics__item">
+											<li>Категория:</li>
+											<li>Категория:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li> Цвет:</li>
+											<li> Цвет:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Производитель:</li>
+											<li>Производитель:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Мощность:</li>
+											<li>Мощность:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Категория:</li>
+											<li>Категория:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Цвет:</li>
+											<li>Цвет:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Производитель:</li>
+											<li>Производитель:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Мощность:</li>
+											<li>Мощность:</li>
+										</div>
+									</ul>
+									<ul class="tabs-characterictics__list">
+										<div class="tabs-characterictics__item">
+											<li>Категория:</li>
+											<li>Категория:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li> Цвет:</li>
+											<li> Цвет:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Производитель:</li>
+											<li>Производитель:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Мощность:</li>
+											<li>Мощность:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Категория:</li>
+											<li>Категория:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Цвет:</li>
+											<li>Цвет:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Производитель:</li>
+											<li>Производитель:</li>
+										</div>
+										<div class="tabs-characterictics__item">
+											<li>Мощность:</li>
+											<li>Мощность:</li>
+										</div>
+									</ul>
+								</div>
+							</div>
+							<div class="product-tabs__reviews tabs-reviews">
+								<h2 class="tabs-reviews__tabs tabs-title">Отзывы</h2>
+								<div class="tabs-reviews__leave-review leave-review tabs-textarea">
+									<textarea name="" id="" class="leave-review__textarea" placeholder="Текст отзыва"></textarea>
+									<div class="leave-review__footer">
+										<div class="leave-review__rating">
+											<div class="rating rating_set">
+												<div class="rating__rate">Оцените товар</div>
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">4</div>
+											</div>
+										</div>
+										<button class="leave-review__button textarea-button">Оставить отзыв</button>
+									</div>
+								</div>
+								<div class="tabs-reviews__body">
+									<div class="tabs-reviews__review review">
+										<div class="review__user user-review">
+											<div class="user-review__avatar"></div>
+											<div class="user-review__info">
+												<div class="user-review__name">Имя Фамилия</div>
+												<div class="user-review__date">22.12.2023</div>
+											</div>
+										</div>
+										<div class="review__text">
+
+											<p>
+												But I must explain to you how all this mistaken idea of denouncing
+												pleasure
+												and praising pain was born and I will give you a complete account of
+												the
+												system, and expound the actual teachings of the great explorer of
+												the
+												truth,
+												the master-builder of human happiness. No one rejects, dislikes, or
+												avoids
+												pleasure itself, because it is pleasure, but because those who do
+												not
+												know
+												how to pursue pleasure rationally encounter consequences that are
+												extremely
+												painful. Nor again is there anyone who loves or pursues or desires
+												to
+												obtain
+												pain of itself, because it is pain, but because occasionally
+												circumstances
+												occur in which toil and pain can procure him some great pleasure.
+											</p>
+											<p>
+												To take a trivial example, which of us ever undertakes laborious
+												physical
+												exercise, except to obtain some advantage from it? But who has any
+												right
+												to
+												find fault with a man who chooses to enjoy a pleasure that has no
+												annoying
+												consequences, or one who avoids a pain that produces no resultant
+												pleasure?
+											</p>
+										</div>
+										<div class="review__actions actions-review">
+											<div class="actions-review__like">
+												<button class="_icon-like" type="button"></button>
+												<span>( 20 )</span>
+											</div>
+											<div class="actions-review__dislike">
+												<button class="_icon-dislike" type="button"></button>
+												<span>( 4 )</span>
+											</div>
+											<a class="actions-review__reply">Ответить</a>
+										</div>
+									</div>
+									<div class="review__reply">
+										<div class="tabs-reviews__review review">
+											<div class="review__user user-review">
+												<div class="user-review__avatar"></div>
+												<div class="user-review__info">
+													<div class="user-review__name">Имя Фамилия</div>
+													<div class="user-review__date">22.12.2023</div>
+												</div>
+											</div>
+											<div class="review__text">
+												<p>
+													But I must explain to you how all this mistaken idea of
+													denouncing
+													pleasure and praising pain was born and I will give you a
+													complete
+													account of the system, and expound the actual teachings of the
+													great
+													explorer of the truth, the master-builder of human happiness.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class=" product-tabs-qa">
+								<h2 class="qa__title">Вопрос - Ответ</h2>
+								<div class="qa__ask tabs-textarea">
+									<textarea name="" id="" class="qa__textarea" placeholder="Задайте свой вопрос"></textarea>
+									<button class="qa__button textarea-button">Задать вопрос</button>
+								</div>
+								<div data-spollers class="qa__spollers spollers-qa">
+									<div class="spollers-qa__item">
+										<button type="button" data-spoller class="spollers-qa__title _icon-arrow">Lorem
+											ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo nulla,
+											sed
+											voluptates, at magnam, inventore atque eius minima atque voluptas
+											accusantium
+											repellendus non autem ullam veniam animi? Ad, officiis explicabo.
+										</button>
+										<div class="spollers-qa__body">
+											<p>
+												But I must explain to you how all this mistaken idea of
+												denouncing pleasure and
+												praising pain was born and I will give you a complete account of
+												the system, and
+												expound the actual teachings of the great explorer of the truth,
+												the master-builder
+												of human happiness. No one rejects, dislikes, or avoids pleasure
+												itself, because it
+												is pleasure, but because those who do not know how to pursue
+												pleasure rationally
+												encounter consequences that are extremely painful.
+											</p>
+										</div>
+									</div>
+									<div class="spollers-qa__item">
+										<button type="button" data-spoller class="spollers-qa__title _icon-arrow">Игровые
+											наушники
+											Audeze
+											Maxwell для Xbox, фиолетовый</button>
+										<div class="spollers-qa__body">
+											<p>
+												But I must explain to you how all this mistaken idea of
+												denouncing pleasure and
+												praising pain was born and I will give you a complete account of
+												the system, and
+												expound the actual teachings of the great explorer of the truth,
+												the master-builder
+												of human happiness. No one rejects, dislikes, or avoids pleasure
+												itself, because it
+												is pleasure, but because those who do not know how to pursue
+												pleasure rationally
+												encounter consequences that are extremely painful.
+											</p>
+										</div>
+									</div>
+									<div class="spollers-qa__item">
+										<button type="button" data-spoller class="spollers-qa__title _icon-arrow">Пример
+											вопроса
+										</button>
+										<div class="spollers-qa__body">
+											<p>
+												But I must explain to you how all this mistaken idea of
+												denouncing pleasure and
+												praising pain was born and I will give you a complete account of
+												the system, and
+												expound the actual teachings of the great explorer of the truth,
+												the master-builder
+												of human happiness. No one rejects, dislikes, or avoids pleasure
+												itself, because it
+												is pleasure, but because those who do not know how to pursue
+												pleasure rationally
+												encounter consequences that are extremely painful.
+											</p>
+										</div>
+									</div>
+									<div class="spollers-qa__item">
+										<button type="button" data-spoller class="spollers-qa__title _icon-arrow">Игровые
+											наушники
+											Audeze
+											Maxwell для Xbox, фиолетовый</button>
+										<div class="spollers-qa__body">
+											<p>
+												But I must explain to you how all this mistaken idea of
+												denouncing pleasure and
+												praising pain was born and I will give you a complete account of
+												the system, and
+												expound the actual teachings of the great explorer of the truth,
+												the master-builder
+												of human happiness. No one rejects, dislikes, or avoids pleasure
+												itself, because it
+												is pleasure, but because those who do not know how to pursue
+												pleasure rationally
+												encounter consequences that are extremely painful.
+											</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="watched">
+				<div class="watched__container">
+					<div class="watched__header header-slider">
+						<h2 class="watched__title title">Вы уже смотрели</h2>
+						<div class="watched__controlls slider-controlls">
+							<button type="button" class="slider-watched__prev slider-controlls__arrow slider-controlls__arrow_prev _icon-arrow">
+								<button type="button" class="slider-watched__next slider-controlls__arrow  slider-controlls__arrow_next _icon-arrow">
+						</div>
+					</div>
+					<div class="popular__slider boxshadow-overflow swiper">
+						<div class="popular__wrapper swiper-wrapper">
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+							<div class="product-card product swiper-slide">
+								<button class="fav product-card__button product-card__add-favorite">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_16_1413)">
+											<path clasc="fav-path" d="M14.7307 2.26807C13.9025 1.36975 12.766 0.875 11.5304 0.875C10.6068 0.875 9.76099 1.16699 9.01636 1.7428C8.64062 2.03345 8.30017 2.38904 8 2.80408C7.69995 2.38916 7.35938 2.03345 6.98352 1.7428C6.23901 1.16699 5.39319 0.875 4.4696 0.875C3.23401 0.875 2.09741 1.36975 1.26917 2.26807C0.450806 3.15588 0 4.36877 0 5.68347C0 7.03662 0.504272 8.27527 1.58691 9.58167C2.55542 10.7502 3.94739 11.9365 5.55933 13.3102C6.10974 13.7793 6.73364 14.311 7.38147 14.8774C7.55261 15.0273 7.77222 15.1099 8 15.1099C8.22766 15.1099 8.44739 15.0273 8.61829 14.8777C9.26611 14.3112 9.89038 13.7792 10.441 13.3098C12.0527 11.9364 13.4447 10.7502 14.4132 9.58154C15.4958 8.27527 16 7.03662 16 5.68335C16 4.36877 15.5492 3.15588 14.7307 2.26807Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_16_1413">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+
+								</button>
+								<a href="#" class="product-card__image image-slider-pc">
+									<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt=""></picture>
+								</a>
+								<a href="#" class="image-slider swiper">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-4.webp" type="image/webp"><img src="img/home/popular-products/popular-products-4.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-1.webp" type="image/webp"><img src="img/home/popular-products/popular-products-1.png" alt="Картинка"></picture>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<picture><source srcset="img/home/popular-products/popular-products-3.webp" type="image/webp"><img src="img/home/popular-products/popular-products-3.png" alt="Картинка"></picture>
+										</div>
+									</div>
+									<div class="image-slider__pagination pagination"></div>
+								</a>
+								<a href="#" class="product-card__title">
+									<h3>Игровые наушники Audeze Maxwell для Xbox, фиолетовый</h3>
+								</a>
+								<div class="product-card__rating  rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div data-popup="#popup-one-click" class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__count">1 отзыв</div>
+									<div class="rating__value">1</div>
+								</div>
+								<div class="product-card__footer">
+									<div class="product-card__prices">
+										<div class="product-card__price">59 950 ₽</div>
+										<div class="product-card__price-old">62 000 ₽</div>
+									</div>
+									<button class="product-card__add-cart _icon-cart"><span>В
+											корзину</span></button>
+								</div>
+							</div>
+						</div>
+						<div class="popular__pagination pagination"></div>
+					</div>
+
+
+				</div>
+			</section>
+
+
+			<section class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__body">
+						<div class="subscribe__text">
+							<h3 class="subscribe__title">Подписка на новости</h3>
+							<p class="subscribe__subtitle">Будьте в курсе новых акций и спецпредложений!</p>
+						</div>
+						<div class="subscribe__actions">
+							<input type="text" placeholder="Ваш e-mail">
+							<button type="button">Подписаться</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<a data-goto-header data-goto=".header-goto-link" href="" class="fixed-goto fixed-element fixed-element_goto _icon-goto-arrow"></a>
+			<a data-popup="#popup-order-call" href="" class="fixed-call fixed-element fixed-element_call _icon-phone"></a>
+
+			<div class="page-menu">
+				<div class="page-menu__container">
+
+					<a href="home.html" class="page-menu__item page-menu__item-home _icon-home">
+						<span>Главная</span>
+					</a>
+					<a href="catalog.html" class="page-menu__item page-menu__item-catalog _icon-menu">
+						<span>Каталог</span>
+					</a>
+					<a href="#" class="page-menu__item page-menu__item-communication _icon-communication">
+						<span>Связь</span>
+					</a>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="#" class="footer__logo"><picture><source srcset="img/common/footer-logo.webp" type="image/webp"><img src="img/common/footer-logo.png" alt="Картинка"></picture></a>
+				<div class="footer__navigation">
+					<nav class="footer__nav footer__nav_1">
+						<div class="footer__title">Навигация</div>
+						<ul class="footer__list">
+							<li><a href="">О магазине</a></li>
+							<li><a href="">Оплата и доставка</a></li>
+							<li><a href="">Гарантии</a></li>
+							<li><a href="">Контакты</a></li>
+							<li><a href="">Карта сайта</a></li>
+							<li><a href="">Новости</a></li>
+							<li><a href="">Политика конфиденциальности</a></li>
+						</ul>
+					</nav>
+					<nav class="footer__nav footer__nav_2">
+						<div class="footer__title">Каталог</div>
+						<ul class="footer__list">
+							<li><a href="">Смарт-часы</a></li>
+							<li><a href="">Акустика для дома</a></li>
+							<li><a href="">Электроника для стриминга и игр</a></li>
+							<li><a href="">Спортивная электроника</a></li>
+							<li><a href="">Кофемашины и аксессуары</a></li>
+							<li><a href="">Проекторы</a></li>
+							<li><a href="">Всё для дома и здоровья</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__contacts contacts-footer">
+					<div class="footer__title">Контакты</div>
+					<div class="contacts-footer__main">
+						<div data-da=".footer__nav_1, 991.98, last" class="contacts-footer__item">
+							<div class="contacts-footer__title _icon-email"><span>E-mail</span></div>
+							<a href="mailto:support@star-shine.ru" class="contacts-footer__link">support@star-shine.ru</a>
+						</div>
+						<div data-da=".footer__nav_2, 991.98, last" class="contacts-footer__item">
+							<div class="contacts-footer__title _icon-phone"><span>Телефон:</span></div>
+							<a href="tel:79384350505" class="contacts-footer__link">+7 (938) 435-05-05</a>
+						</div>
+					</div>
+					<div data-da=".footer__navigation, 991.98, last" class="contacts-footer__socials">
+						<a href="#"><img src="img/icons/instagram-icon.svg" alt="Картинка"></a>
+						<a href="#"><img src="img/icons/whatsapp-icon.svg" alt="Картинка"></a>
+						<a href="#"><img src="img/icons/telegram-icon.svg" alt="Картинка"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyrights copyrights-footer">
+				<div class="copyrights-footer__container">
+					<span>Все права защищены. 2023</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-one-click" aria-hidden="true" class="popup popup-one-click">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Купить в один клик</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<div class="basket">
+						<div class="basket__main">
+							<div class="basket__image-pc"><picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+							</div>
+							<div class="basket__product basket-product">
+								<div class="basket-product__header">
+									<div class="basket-product__image-mobile"><picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+									</div>
+									<div class="basket-product__title">Игровые наушники Audeze Maxwell для Xbox,
+										фиолетовый</div>
+									<button class="cart-product__delete _icon-delete" aria-label="Удалить товар"></button>
+									<!-- <button type="button" class="basket-product__bin _icon-delete"></button> -->
+								</div>
+								<div class="basket-product__info">
+									<div class="basket-product__item">
+										<span class="basket-product__label">Артикул: 36634</span>
+										<div class="basket-product__stock">В наличии: 12</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Стоимость:</span></span>
+										<div class="basket-product__prices">
+											<div class="basket-product__price-current">59 950 ₽</div>
+											<div class="basket-product__price-old">62 000 ₽</div>
+										</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Количество:</span>
+										<div class="quantity">
+											<div class="quantity__button quantity__button_minus">-</div>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<div class="quantity__button quantity__button_plus">+</div>
+										</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Итого:</span>
+										<div class="basket-product__price-final">179 850 ₽</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="#" method="POST">
+						<div class="popup__inputs">
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="заполните поле" data-required data-validate placeholder="Имя Фамилия Отчество" class="input">
+							</div>
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="некорректный номер" data-required data-validate placeholder="Телефон" class="input phone-mask">
+							</div>
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="некорректный e-mail" data-required="email" data-validate placeholder="E-mail" class="input">
+							</div>
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="заполните поле" data-required data-validate placeholder="Город" class="input">
+							</div>
+						</div>
+						<button type="button" class="popup__button popup__button_orange button">Оформить заказ</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <button type="button" class="item-point__button">Выбрать этот пункт</button> -->
+
+
+
+
+	<div id="popup-cheaper" aria-hidden="true" class="popup popup-cheaper">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Нашли дешевле?</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<div class="basket">
+						<div class="basket__main">
+							<div class="basket__image-pc"><picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+							</div>
+							<div class="basket__product basket-product">
+								<div class="basket-product__header">
+									<div class="basket-product__image-mobile"><picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+									</div>
+									<div class="basket-product__title">Игровые наушники Audeze Maxwell для Xbox,
+										фиолетовый</div>
+									<button class="cart-product__delete _icon-delete" aria-label="Удалить товар"></button>
+									<!-- <button type="button" class="basket-product__bin _icon-delete"></button> -->
+								</div>
+								<div class="basket-product__info">
+									<div class="basket-product__item">
+										<span class="basket-product__label">Артикул: 36634</span>
+										<div class="basket-product__stock">В наличии: 12</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Стоимость:</span></span>
+										<div class="basket-product__prices">
+											<div class="basket-product__price-current">59 950 ₽</div>
+											<div class="basket-product__price-old">62 000 ₽</div>
+										</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Количество:</span>
+										<div class="quantity">
+											<div class="quantity__button quantity__button_minus">-</div>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<div class="quantity__button quantity__button_plus">+</div>
+										</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Итого:</span>
+										<div class="basket-product__price-final">179 850 ₽</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="#" method="POST">
+						<div class="popup__inputs">
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="заполните поле" data-required data-validate placeholder="Имя Фамилия Отчество" class="input">
+							</div>
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="некорректный номер" data-required data-validate placeholder="Телефон" class="input phone-mask">
+							</div>
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="некорректный e-mail" data-required="email" data-validate placeholder="E-mail" class="input">
+							</div>
+							<div class="popup__input">
+								<input type="text" name="form[order]" data-error="заполните поле" data-required data-validate placeholder="Пожелания по цене" class="input">
+							</div>
+						</div>
+						<div class="popup-cheaper__footer">
+							<div class="popup-cheaper__footer-title">Ссылка на страницу с низкой ценой</div>
+							<div class="popup-cheaper__actions">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Ссылка" class="input">
+								<button type="button" class="popup__button popup__button_order button">Отправить
+									заявку</button>
+							</div>
+							<a href="#" class="popup-cheaper__detailed">Подробные условия</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-pickup-point" aria-hidden="true" class="popup popup-pickup-point">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Выбрать пункт выдачи</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<div class="popup-pickup-point__body">
+						<div class="popup-pickup-point__map">
+							<picture><source srcset="img/common/map.webp" type="image/webp"><img src="img/common/map.jpg" alt=""></picture>
+						</div>
+						<div data-simplebar class="popup-pickup-point__items">
+							<div class="popup-pickup-point__item item-point">
+								<h3 class="item-point__title">На Заполярной 39, корп. 6</h3>
+								<div class="item-point__item">
+									<span class="item-point__name">Название: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<div class="item-point__item">
+									<span class="item-point__name">Адрес: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<button type="button" class="item-point__button item-point__button_active">Выбранный
+									пункт</button>
+							</div>
+							<div class="popup-pickup-point__item item-point">
+								<h3 class="item-point__title">На Заполярной 39, корп. 6</h3>
+								<div class="item-point__item">
+									<span class="item-point__name">Название: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<div class="item-point__item">
+									<span class="item-point__name">Адрес: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<button type="button" class="item-point__button">Выбрать этот пункт</button>
+							</div>
+							<div class="popup-pickup-point__item item-point">
+								<h3 class="item-point__title">На Заполярной 39, корп. 6</h3>
+								<div class="item-point__item">
+									<span class="item-point__name">Название: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<div class="item-point__item">
+									<span class="item-point__name">Адрес: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<button type="button" class="item-point__button">Выбрать этот пункт</button>
+							</div>
+							<div class="popup-pickup-point__item item-point">
+								<h3 class="item-point__title">На Заполярной 39, корп. 6</h3>
+								<div class="item-point__item">
+									<span class="item-point__name">Название: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<div class="item-point__item">
+									<span class="item-point__name">Адрес: </span>
+									<span class="item-point__value"> На Заполярной 39, корп. 6</span>
+								</div>
+								<button type="button" class="item-point__button">Выбрать этот пункт</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-add-cart" aria-hidden="true" class="popup popup-add-cart">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Добавить в корзину</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<div class="basket">
+						<div class="basket__main">
+							<div class="basket__image-pc"><picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+							</div>
+							<div class="basket__product basket-product">
+								<div class="basket-product__header">
+									<div class="basket-product__image-mobile"><picture><source srcset="img/home/popular-products/popular-products-2.webp" type="image/webp"><img src="img/home/popular-products/popular-products-2.png" alt="Картинка"></picture>
+									</div>
+									<div class="basket-product__title">Игровые наушники Audeze Maxwell для Xbox,
+										фиолетовый</div>
+									<button type="button" class="cart-product__delete _icon-delete"></button>
+								</div>
+								<div class="basket-product__info">
+									<div class="basket-product__item">
+										<span class="basket-product__label">Артикул: 36634</span>
+										<div class="basket-product__stock">В наличии: 12</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Стоимость:</span></span>
+										<div class="basket-product__prices">
+											<div class="basket-product__price-current">59 950 ₽</div>
+											<div class="basket-product__price-old">62 000 ₽</div>
+										</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Количество:</span>
+										<div class="quantity">
+											<div class="quantity__button quantity__button_minus">-</div>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<div class="quantity__button quantity__button_plus">+</div>
+										</div>
+									</div>
+									<div class="basket-product__item">
+										<span class="basket-product__label">Итого:</span>
+										<div class="basket-product__price-final">179 850 ₽</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="#" method="POST">
+						<div class="popup__total">
+							<div class="popup__total-item">
+								<span>Предварительная стоимость</span>
+								<span>179 850 ₽</span>
+							</div>
+						</div>
+						<div class="popup__buttons">
+							<a href="catalog.html" class="popup__button button">Продожить
+								покупки</a>
+							<a href="#" class="popup__button button">Купить в 1
+								клик</a>
+							<button type="button" class="popup__button popup__button_orange button _icon-cart">В
+								корзину</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="popup-order-call" aria-hidden="true" class="popup popup_small popup-order-call">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Заказать звонок</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<div class="popup__input">
+						<input type="text" name="form[order]" data-error="заполните поле" data-required data-validate placeholder="Ваше имя" class="input">
+					</div>
+					<div class="popup__input">
+						<input type="text" name="form[order]" data-error="заполните поле" data-required="phone" data-validate placeholder="Номер телефона" class="input">
+					</div>
+					<button class="popup__button popup__button_orange">Быстрый заказ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-price-notify" aria-hidden="true" class="popup popup-price-notify">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Узнать о снижении цены</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<div class="popup-cheaper__footer">
+						<div class="popup-cheaper__footer-title">Ведите ваш e-mail</div>
+						<div class="popup-cheaper__actions">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Ссылка" class="input">
+							<button type="button" class="popup__button popup__button_order button">Получить
+								уведомление</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-subscribe-error" aria-hidden="true" class="popup popup_small popup-subscribe-error">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Ошибка подписки</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<p class="popup__text">Что-то пошло не так, попробуйте еще раз</p>
+					<a href="home.html" class="popup__button popup__button_orange">Вернуться на сайт</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-subscribe-success" aria-hidden="true" class="popup popup_small popup-subscribe-success">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Подписка оформлена</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<p class="popup__text">Вы будете получать актуальные новости</p>
+					<a href="home.html" class="popup__button popup__button_orange">Вернуться на сайт</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 
+<div id="popup-subscribe-accepted" aria-hidden="true" class="popup popup_small popup-subscribe-accepted">
+	<div class="popup__container">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<h2 class="popup__title">Заказ успешно создан</h2>
+					<button data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<p class="popup__text">Вы получите на почту всю необходимую информацию</p>
+				<a href="home.html" class="popup__button popup__button_orange">Вернуться на сайт</a>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<div id="popup-subscribe-accepted" aria-hidden="true" class="popup popup_small popup-subscribe-accepted">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Заявка принята</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<p class="popup__text">С вами свяжутся в ближайшее время</p>
+					<a href="home.html" class="popup__button popup__button_orange">Вернуться на сайт</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-order-success" aria-hidden="true" class="popup popup_small popup-order-success">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Заказ успешно создан</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<p class="popup__text">Вы получите на почту всю необходимую информацию</p>
+					<a href="home.html" class="popup__button popup__button_orange">Вернуться на сайт</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-share" aria-hidden="true" class="popup popup_small popup-share">
+		<div class="popup__container">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header">
+						<h2 class="popup__title">Поделиться</h2>
+						<button data-close type="button" class="popup__close _icon-close"></button>
+					</div>
+					<ul class="popup-share__socials">
+						<li class="">
+							<a href="#"><img src="img/icons/odnoklassniki.svg" alt=""></a>
+						</li>
+						<li class="">
+							<a href="#"><img src="img/icons/vkontakte.svg" alt=""></a>
+						</li>
+						<li class="">
+							<a href="#"><img src="img/icons/whatsapp.svg" alt=""></a>
+						</li>
+						<li class="">
+							<a href="#"><img src="img/icons/telegram.svg" alt=""></a>
+						</li>
+					</ul>
+					<div class="popup-share__link">
+						<div class="popup-share__title">Ссылка на товар</div>
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пример ссылки" class="input">
+					</div>
+					<button type="button" class="popup__button popup__button_orange">Копировать ссылку</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240302193327"></script>
+</body>
+
+</html>
